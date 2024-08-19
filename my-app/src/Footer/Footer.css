@@ -1,0 +1,82 @@
+#foot {
+    padding: 120px 0 70px 0;
+  }
+  #foot .foot_wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  #foot .foot_wrapper .foot_contant p {
+    width: 450px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #29313D;
+    text-transform: capitalize;
+    margin-top: 20px;
+  }
+  #foot .foot_wrapper .foot_wrapper_two {
+    display: flex;
+    justify-content: center;
+    column-gap: 199px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_heading {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #29313D;
+    margin-bottom: 48px;
+    text-transform: capitalize;
+    line-height: 150%;
+  }
+  #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list li a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #29313D;
+    cursor: pointer;
+    text-transform: capitalize;
+    line-height: 150%;
+  }
+  #foot .last_foot_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #foot .last_foot_wrapper .last_contant {
+    margin-top: 80px;
+  }
+  #foot .last_foot_wrapper .last_contant a {
+    width: 312px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #29313D;
+    text-transform: capitalize;
+    line-height: 140%;
+    cursor: pointer;
+  }
+  #foot .last_foot_wrapper .last_contant_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    column-gap: 60px;
+  }
+  #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two {
+    margin-top: 80px;
+  }
+  #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two a {
+    width: 200px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #29313D;
+    text-transform: capitalize;
+    line-height: 140%;
+    cursor: pointer;
+  }
